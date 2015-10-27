@@ -1,0 +1,16 @@
+{
+  "api_url": "http://cachet-qa-uswest2.otenv.com/api/v1",
+  "api_token": "Ssmk1PERZkB9QRRt5XKO",
+  "monitors": [
+    {
+      "name": "Guest Center Admin",
+      "url": "https://gc-pp-uswest2.otenv.com",
+      "metric_id": 1,
+      "threshold": 80,
+      "component_id": 0,
+      "expected_status_code": 200,
+      "strict_tls": true
+    }
+  ],
+  "insecure_api": true
+}
